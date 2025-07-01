@@ -3,7 +3,7 @@ package org.example.Route.core;
 import org.example.Route.models.Route;
 
 import java.time.ZonedDateTime;
-import java.util.Collection; // <-- Added this import
+import java.util.Collection; 
 import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.TreeSet;
@@ -25,17 +25,17 @@ public class CollectionManager {
     }
 
 
-    public Collection<Route> getRoutes() { // <-- Changed return type to Collection
+    public Collection<Route> getRoutes() { 
         return Collections.unmodifiableCollection(new TreeSet<>(routeSet));
     }
 
 
-    public boolean updateRoute(long id, Route newRoute) { // <-- Changed parameter to long
+    public boolean updateRoute(long id, Route newRoute) { 
         for (Route r : routeSet) {
-            // Use .equals() for safe comparison of Long objects
+            
             if (r.getId().equals(id)) {
                 routeSet.remove(r);
-                // The newRoute already has a new ID, this logic just replaces the old one.
+                
                 routeSet.add(newRoute);
                 return true;
             }
@@ -44,8 +44,8 @@ public class CollectionManager {
     }
 
 
-    public boolean removeById(Long id) { // <-- Changed parameter to Long
-        // Use .equals() for safe comparison of Long objects
+    public boolean removeById(Long id) { 
+        
         return routeSet.removeIf(route -> route.getId().equals(id));
     }
 
