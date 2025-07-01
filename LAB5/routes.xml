@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<routes>
+    <route id="1">
+        <name>sdf</name>
+        <coordinates>
+            <x>3</x>
+            <y>43.0</y>
+        </coordinates>
+        <creationDate>2025-06-08T11:20:52.539619300</creationDate>
+        <from>
+            <x>43.0</x>
+            <y>43</y>
+            <z>4.0</z>
+        </from>
+        <to>
+            <x>343.0</x>
+            <y>45</y>
+            <z>45.0</z>
+        </to>
+        <distance>6</distance>
+    </route>
+    <route id="2">
+        <name>df</name>
+        <coordinates>
+            <x>4</x>
+            <y>54.0</y>
+        </coordinates>
+        <creationDate>2025-06-08T11:22:46.526403300</creationDate>
+        <from>
+            <x>5.0</x>
+            <y>5</y>
+            <z>5.0</z>
+        </from>
+        <to>
+            <x>56.0</x>
+            <y>67</y>
+            <z>7.0</z>
+        </to>
+        <distance>8</distance>
+    </route>
+</routes>
