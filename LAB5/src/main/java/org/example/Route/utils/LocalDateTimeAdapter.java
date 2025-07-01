@@ -1,4 +1,3 @@
-// In Route/utils/LocalDateTimeAdapter.java
 package org.example.Route.utils;
 
 import jakarta.xml.bind.annotation.adapters.XmlAdapter;
