@@ -7,7 +7,7 @@ import java.util.Collection;
 
 
 @XmlRootElement(name = "routes")
-public class RoutesWrapper { // <--- Added 'public'
+public class RoutesWrapper { 
     private Collection<Route> routes;
 
     @XmlElement(name = "route")
